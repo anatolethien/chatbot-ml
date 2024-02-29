@@ -1,0 +1,4 @@
+# config
+POSTGRES_DB = "chatbot-ml"
+POSTGRES_USER = "root"
+POSTGRES_PASSWORD = "toor"

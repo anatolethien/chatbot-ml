@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action="/response" method="post">
+    <label for="prompt">Symptômes</label>
+    <textarea name="prompt" rows="8" cols="48" placeholder="Décrire les symptômes ici..."></textarea>
+    <button type="submit">Valider</button>
+</form>
+{% endblock %}
